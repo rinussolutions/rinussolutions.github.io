@@ -1,29 +1,3 @@
-/*
- * Wava Theme
- * Created by : mixdesigns
- * website : www.mixdesigns.net
- */
-
-/* Table of Content
-==================================================
-- General -
-- margin spaces -
-- Header and nav -
-- intro -
-- screenshots -
-- overview -
-- features -
-- share -
-- app-brief1 - app-brief2 -
-- subscription-form -
-- contact -
-- footer -
--    THEME SWITCHER -
-- responsive -
-
- */
-
-
 /* - General ------------------------------------------------------- */
 
 /* PRE LOADER */
@@ -654,6 +628,27 @@ THEME SWITCHER
 .version:hover,.version:focus{
   color: #B6DD2A;
 }
+.pace .pace-progress {
+  background: #891C1A;
+}
+.bigIcon { 
+  font-size: 50px;
+}
+.bigIcon,.socialList li a:hover{
+  color: #891C1A;
+}
+.btn-new,.downloadNumber{
+  background: #891C1A
+}
+.btn-new:hover,.btn-new:focus{
+  background: #5A554C
+}
+#share{
+  background-color: #891C1A;
+}
+ul.nav li a.blogLi{
+  color: #891C1A;
+}
 /* responsive style ----------------------------------------------------------------- */
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -767,10 +762,3 @@ THEME SWITCHER
 @media only screen and (max-width : 320px) {
 
 }
-/* Color config */
-.pace .pace-progress {background: #891C1A;}
-.bigIcon,.socialList li a:hover{color: #891C1A;}
-.btn-new,.downloadNumber{background: #891C1A}
-.btn-new:hover,.btn-new:focus{background: #5A554C}
-#share{background-color: #891C1A;}
-ul.nav li a.blogLi{color: #891C1A;}
