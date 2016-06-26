@@ -721,7 +721,9 @@ ul.nav li a.blogLi{
   .mg-sm-100{
     margin-bottom: 100px;
   }
-
+  .text-right,.text-left {
+    text-align: center;
+  }
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
@@ -752,11 +754,9 @@ ul.nav li a.blogLi{
   .downloads a{
     margin: 5px;
   }
-
   .left-mob-front,.left-mob-back,.right-mob-front,.right-mob-back{
     max-width: 80%;
   }
-
 }
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
